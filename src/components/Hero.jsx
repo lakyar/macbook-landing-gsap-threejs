@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import MacbookModel14 from "./models/Macbook-14";
 
 const Hero = () => {
     const videoRef = useRef();
@@ -18,9 +19,9 @@ const Hero = () => {
                 playsInline
                 muted
             />
+            
 
             <button>Buy</button>
-
             <p>From $1599 or $133/mo for 12 months</p>
         </section>
     );
